@@ -5,7 +5,7 @@ class Circle(object):
         self.radius = radius
 
     def getRadius(self):
-        return self.radius 
+        return self.radius
 
     def setRadius(self, value):
         if not isinstance(value, (int, long, float)):
@@ -22,3 +22,4 @@ print c.R
 c.R = 'abcc'
 print c.R
 
+# test
